@@ -56,7 +56,6 @@ CiliKube 起源于作者学习 Web 全栈开发的实践项目。在学习过程
 
 # Docker Deployment
 ```angular2html
-cd ui
 docker build -t "cilikube-fe:latest" .
 docker run --name cilikube-fe -p 8888:8888 -d cilikube-fe:latest
 ```
